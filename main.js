@@ -11,8 +11,6 @@ button.addEventListener("click", function(){
 			p.innerHTML = `Imię: ${response.imie}<br> Nazwisko: ${response.nazwisko}<br> Zawód: ${response.zawod}<br> Firma: ${response.firma}`;
 			newDiv.appendChild(p);
 		body.appendChild(newDiv);
-		// newDiv.appendChild("");
-		console.log(response);
 	});
 });
 
